@@ -29,8 +29,10 @@ int main() {
     // Checking if the user's guess is
     // correct using an If...Then...Else statement.
     if (userGuess == randomNumber) {
-        std::cout << "You guessed correctly. The number is " << randomNumber << "" << std::endl;
+        std::cout << "You guessed correctly. The number is "
+        << randomNumber << "." << std::endl;
     } else {
-        std::cout << "You guessed wrong. The correct number was " << randomNumber << "" << std::endl;
+        std::cout << "You guessed wrong. The correct number was "
+        << randomNumber << "." << std::endl;
     }
 }
