@@ -20,7 +20,7 @@ int main() {
     srand(time(NULL));
 
     // Generating a random number between 1 and 10.
-    randomNumber = rand() % 17 + 1;
+    randomNumber = rand_r() % 17 + 1;
 
     // Getting the user's guess.
     std::cout << "Enter a number between 1-17 for your guess: ";
